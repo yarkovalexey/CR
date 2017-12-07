@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="CarShop">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Car" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="ID" type="xsd:int"/>
+                            <xsd:element name="Model" type="xsd:string"/>
+                            <xsd:element name="Country" type="xsd:string"/>
+                            <xsd:element name="Year" type="xsd:int"/>
+                            <xsd:element name="V" type="xsd:int"/>
+                            <xsd:element name="Price" type="xsd:int"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

@@ -1,0 +1,8 @@
+<!ELEMENT CarShop (Car+)>
+        <!ELEMENT Car (ID, Model, Country, Year, V, Price)>
+        <!ELEMENT ID (#PCDATA)>
+        <!ELEMENT Model (#PCDATA)>
+        <!ELEMENT Country (#PCDATA)>
+        <!ELEMENT Year (#PCDATA)>
+        <!ELEMENT V (#PCDATA)>
+        <!ELEMENT Price (#PCDATA)>

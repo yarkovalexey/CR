@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CarShop SYSTEM "CarShop.dtd">
+<CarShop>
+    <Car>
+        <ID>4</ID>
+        <Model>Mercedes-Benz W140</Model>
+        <Country>DE</Country>
+        <Year>1998</Year>
+        <V>6</V>
+        <Price>600000</Price>
+    </Car>
+    <Car>
+        <ID>5</ID>
+        <Model>Mercedes-Benz W140</Model>
+        <Country>DE</Country>
+        <Year>1999</Year>
+        <V>6</V>
+        <Price>650000</Price>
+    </Car>
+    <Car>
+        <ID>2</ID>
+        <Model>Mercedes-Benz W140</Model>
+        <Country>DE</Country>
+        <Year>1999</Year>
+        <V>6</V>
+        <Price>700000</Price>
+    </Car>
+    <Car>
+        <ID>3</ID>
+        <Model>Mercedes-Benz W140</Model>
+        <Country>DE</Country>
+        <Year>1998</Year>
+        <V>6</V>
+        <Price>670000</Price>
+    </Car>
+    <Car>
+        <ID>1</ID>
+        <Model>Mercedes-Benz W140</Model>
+        <Country>DE</Country>
+        <Year>1997</Year>
+        <V>6</V>
+        <Price>500000</Price>
+    </Car>
+</CarShop>
